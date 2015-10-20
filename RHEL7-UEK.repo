@@ -1,0 +1,13 @@
+[ol7_UEKR3_OFED20]
+name=OFED supporting tool packages for Unbreakable Enterprise Kernel on Oracle Linux 7 ($basearch)
+baseurl=http://public-yum.oracle.com/repo/OracleLinux/OL7/UEKR3_OFED20/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=0
+enabled=1
+
+[ol7_UEKR3]
+name=Latest Unbreakable Enterprise Kernel Release 3 for Oracle Linux $releasever ($basearch)
+baseurl=http://public-yum.oracle.com/repo/OracleLinux/OL7/UEKR3/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=0
+enabled=1
